@@ -37,6 +37,32 @@ VK_MODECHANGE = 0x1F
 VK_SPACE = 0x20 #SPACEBAR
 VK_PRIOR = 0x21 #PAGE UP key
 VK_NEXT = 0x22 #PAGE DOWN key
+VK_END = 0x23 #END key
+VK_HOME = 0x24 #HOME key
+VK_LEFT = 0x25 #LEFT ARROW key
+VK_UP = 0x26
+VK_RIGHT = 0x27
+VK_DOWN = 0x28
+VK_SELECT = 0x29
+VK_PRINT = 0x2A
+VK_EXECUTE = 0x2B
+VK_SNAPSHOT = 0x2C
+VK_INSERT = 0x2D
+VK_DELETE = 0x2E
+VK_HELP = 0x2F
+key0 = 0x30
+key1 = 0x31
+key2 = 0x32
+key3 = 0x33
+key4 = 0x34
+key5 = 0x35
+key6 = 0x36
+key7 = 0x37
+key8 = 0x38
+key9 = 0x39
+keyA = 0x41
+keyB = 0x42
+
 
 wintypes.ULONG_PTR = wintypes.WPARAM
 
