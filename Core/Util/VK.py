@@ -1,7 +1,3 @@
-Mouse = 0
-Keyboard = 1
-Hardware = 2
-
 '''
 Mouse
 '''
