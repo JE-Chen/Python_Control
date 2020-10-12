@@ -1,1 +1,1 @@
-# eeaao
+* you can use lib to control windows mouse and keyboard
