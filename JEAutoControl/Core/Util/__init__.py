@@ -1,1 +1,1 @@
-from JEAutoControl.Core.Util import Win32CtypeINPUT
+from JEAutoControl.Core.Util import *

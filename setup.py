@@ -5,10 +5,10 @@ with open("JEAutoControl/README.md", "r") as README:
 
 setuptools.setup(
     name="JEAutoControl",
-    version="0.0.2",
+    version="0.0.5",
     author="JE-Chen",
     author_email="zenmailman@gmail.com",
-    description="Windows auto control alpha 0.0.1",
+    description="Windows auto control alpha 0.0.5",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/JE-Chen/Python_Control",
@@ -24,3 +24,4 @@ setuptools.setup(
 )
 
 #sdist bdist_wheel
+#python -m twine upload dist/*
