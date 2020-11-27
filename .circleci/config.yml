@@ -15,7 +15,7 @@ jobs:
       - python/load-cache
       - python/save-cache
       - run:
-          command: pip install -r JEAutoControl
+          command: pip install --user -r JEAutoControl
           name: pipSomething
       - run:
           command: python ./Test/Win32KeyboardTest.py
