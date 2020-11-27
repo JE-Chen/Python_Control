@@ -1,18 +1,22 @@
 version: 2.1
 
 orbs:
-	python: circleci/python@1.2.1
+	python: circleci/python@0.2.1
 
 steps:
-	- python/load-cache
-	-run:
-		command: pip install -r requirements.txt
-	- python/install-deps
-	- python/save-cache
+      - checkout
+	- restore_cache:
+          keys:
+		- pip -- {{ checksum "requirements.txt"}}
       - run:
-          	command: ./manage.py test
-          	name: Test
-
+          name: Install dependencies
+          command: pip install --user -r requirements.txt
+      - save_cache:
+      	key: pip -- {{ checksum "requirements.txt"}}
+          paths: /home/circleci/.local/bin/
+      - run:
+          command: python manage.py test
+          name: Test
 
 workflows:
   main:
