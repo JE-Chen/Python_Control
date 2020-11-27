@@ -8,12 +8,11 @@ jobs:
   build-and-test:
     executor:
       name: win/default
-      shell: powershell.exe
+      shell: cmd.exe
       
     steps:
       - checkout
       - python/load-cache
-      - python/install-deps
       - python/save-cache
       - run:
           command: python ./Test/Win32KeyboardTest.py
@@ -23,3 +22,4 @@ workflows:
   main:
     jobs:
       - build-and-test
+
