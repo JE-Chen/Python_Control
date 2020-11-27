@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2.1
 
 orbs:
@@ -20,3 +21,28 @@ workflows:
   main:
     jobs:
       - build-and-test
+=======
+version: 2.1
+
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  build-and-test:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - pip install pytest
+      - pip install -r requirements.txt
+      - run:
+          command: ./Test/Win32KeyboardTest.py
+          name: Test
+
+workflows:
+  main:
+    jobs:
+      - build-and-test
+>>>>>>> b5a418a97caacb1bb7d890cca914b2bc5a56b372
