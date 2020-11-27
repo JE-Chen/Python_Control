@@ -4,6 +4,8 @@ orbs:
   win: circleci/windows@2.2.0
   python: circleci/python@0.2.1
 
+user
+
 jobs:
   build-and-test:
     executor:
@@ -15,7 +17,7 @@ jobs:
       - python/load-cache
       - python/save-cache
       - run:
-          command: pip install --user -r JEAutoControl
+          command: pip install --user JEAutoControl
           name: pipSomething
       - run:
           command: python ./Test/Win32KeyboardTest.py
