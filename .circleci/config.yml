@@ -12,8 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: 
-	  ls -al ./Test/Win32KeyboardTest.py
+          command: ./Test/Win32KeyboardTest.py test
           name: Test
 
 workflows:
