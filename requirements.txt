@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 pip install -r JEAutoControl
-=======
-pip install JEAutoControl
->>>>>>> ec321a978eb0347f56de50a129ebeccbfacb98b9
