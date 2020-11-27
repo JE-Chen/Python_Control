@@ -8,14 +8,16 @@ jobs:
   build-and-test:
     executor:
       name: win/default
-      shell: cmd.exe
+      shell: powershell.exe
       
     steps:
       - checkout
       - python/load-cache
       - python/save-cache
       - run:
-	  pip install -r JEAutoControl
+          command: pip install -r JEAutoControl
+          name: pipSomething
+      - run:
           command: python ./Test/Win32KeyboardTest.py
           name: Test
 
