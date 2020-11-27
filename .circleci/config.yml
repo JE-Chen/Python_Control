@@ -4,8 +4,6 @@ orbs:
   win: circleci/windows@2.2.0
   python: circleci/python@0.2.1
 
-user
-
 jobs:
   build-and-test:
     executor:
