@@ -11,6 +11,8 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
+          -  pip install pytest
+	  -  pip install -r requirements.txt
       - run:
           command: ./manage.py test
           name: Test
