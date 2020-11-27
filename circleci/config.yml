@@ -4,9 +4,15 @@ orbs:
 	python: circleci/python@1.2.1
 
 steps:
-	- checkout
+	- python/load-cache
 	-run:
-	command: pip install -r requirements.txt
+		command: pip install -r requirements.txt
+	- python/install-deps
+	- python/save-cache
+      - run:
+          	command: ./manage.py test
+          	name: Test
+
 
 workflows:
   main:
