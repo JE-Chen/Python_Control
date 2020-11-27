@@ -8,7 +8,8 @@ jobs:
 
     steps:
       - checkout
-# ここから
+	-run:
+	  key: pip freeze > requirements.txt
       - restore_cache:
           keys:
               - pip -- {{ checksum "requirements.txt"}}
@@ -17,8 +18,7 @@ jobs:
           command: pip install --user -r requirements.txt
       - save_cache:
           key: pip -- {{ checksum "requirements.txt"}}
-          paths: /home/circleci/.local/bin/
-# ここまで
+          paths: {{ checksum "requirements.txt"}}
       - run:
           command: python manage.py test
           name: Test
