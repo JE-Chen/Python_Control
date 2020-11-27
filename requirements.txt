@@ -1,1 +1,1 @@
-pip install JEAutoControl
+pip install - JEAutoControl
