@@ -7,7 +7,6 @@ orbs:
 jobs:
   build-and-test:
     executor:
-      python/default
       name: win/default
       shell: powershell.exe
       
