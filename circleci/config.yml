@@ -1,25 +1,25 @@
 version: 2.1
 
-orbs:
-	python: circleci/python@0.2.1
-
 jobs:
   build-and-test:
     # working_directory: ~/
     docker:
         - image: circleci/python:3.7.5
-	steps:
-      	- checkout
-	- restore_cache:
-          	keys:	
-			- pip -- {{ checksum "requirements.txt"}}
-      	- run:
-          	name: Install dependencies
-          	command: pip install --user -r requirements.txt
-      	- save_cache:
-      		key: pip -- {{ checksum "requirements.txt"}}
-          	paths: /home/circleci/.local/bin/
-      	- run:
+
+    steps:
+      - checkout
+# ここから
+      - restore_cache:
+          keys:
+              - pip -- {{ checksum "requirements.txt"}}
+      - run:
+          name: Install dependencies
+          command: pip install --user -r requirements.txt
+      - save_cache:
+          key: pip -- {{ checksum "requirements.txt"}}
+          paths: /home/circleci/.local/bin/
+# ここまで
+      - run:
           command: python manage.py test
           name: Test
 
