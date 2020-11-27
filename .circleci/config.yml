@@ -15,9 +15,10 @@ jobs:
       - python/load-cache
       - python/save-cache
       - run:
-          command: python ./Test/Win32KeyboardTest.py
-	  command: pip install -r JEAutoControl
-          name: Test
+	  command: 
+	    pip install -r JEAutoControl
+            python ./Test/Win32KeyboardTest.py
+            name: Test
 
 workflows:
   main:
