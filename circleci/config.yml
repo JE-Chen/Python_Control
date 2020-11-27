@@ -11,10 +11,9 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-          -  pip install pytest
-	  -  pip install -r requirements.txt
       - run:
-          command: ./Test/Win32KeyboardTest.py
+          command: 
+	  /Test/Win32KeyboardTest.py
           name: Test
 
 workflows:
