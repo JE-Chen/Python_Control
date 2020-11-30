@@ -12,7 +12,6 @@ jobs:
 
     steps:
       - checkout
-      - python/install-deps
       - run:
           command: pip install --user JEAutoControl
           name: pipSomething
