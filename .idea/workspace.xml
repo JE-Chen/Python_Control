@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="" />
+    <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +66,7 @@
       <workItem from="1606480166570" duration="127000" />
       <workItem from="1606482528947" duration="337000" />
       <workItem from="1606484147821" duration="9239000" />
-      <workItem from="1606609758762" duration="2186000" />
+      <workItem from="1606609758762" duration="2484000" />
     </task>
     <servers />
   </component>
