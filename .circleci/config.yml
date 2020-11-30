@@ -9,7 +9,7 @@ jobs:
     executor:
       name: win/default
       shell: powershell.exe
-      
+
     steps:
       - checkout
       - python/load-cache
