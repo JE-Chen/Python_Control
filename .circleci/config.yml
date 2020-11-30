@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   win: circleci/windows@2.2.0
-  python: circleci/python@1.2.1
+  python: circleci/python@0.2.1
 
 jobs:
   build-and-test:
@@ -12,8 +12,8 @@ jobs:
 
     steps:
       - checkout
-      - python/load_cache
-      - python/save_cache
+      - python/load-cache
+      - python/save-cache
       - run:
           command: pip install --user JEAutoControl
           name: pipSomething
