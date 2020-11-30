@@ -12,8 +12,8 @@ jobs:
 
     steps:
       - checkout
-      - python/load-cache
-      - python/save-cache
+      - python/load_cache
+      - python/save_cache
       - run:
           command: pip install --user JEAutoControl
           name: pipSomething
