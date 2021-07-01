@@ -20,27 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/je_auto_control/keyboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/je_auto_control/mouse/win32_ctype_mouse_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/win32_keyboard_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/win32_mouse_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/Win32CtypeINPUT.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/win32_ctype_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/Win32VK.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/win32_vk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Keyboard/Win32CtypeKeyboardControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/keyboard/win32_ctype_keyboard_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Keyboard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Mouse/Win32CtypeMouseControl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/Mouse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/mouse/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEAutoControl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Win32KeyboardTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Win32MouseTest.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +126,7 @@
       <workItem from="1606484147821" duration="9239000" />
       <workItem from="1606609758762" duration="3079000" />
       <workItem from="1607570681486" duration="1733000" />
-      <workItem from="1625119959060" duration="4662000" />
+      <workItem from="1625119959060" duration="5998000" />
     </task>
     <servers />
   </component>
