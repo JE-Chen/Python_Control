@@ -19,7 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="" />
+    <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/je_auto_control/keyboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/je_auto_control/mouse/win32_ctype_mouse_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/win32_keyboard_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/win32_mouse_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/Win32CtypeINPUT.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/win32_ctype_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/Win32VK.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/win32_vk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/Util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Keyboard/Win32CtypeKeyboardControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/keyboard/win32_ctype_keyboard_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Keyboard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Mouse/Win32CtypeMouseControl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/Mouse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/mouse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEAutoControl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Win32KeyboardTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Win32MouseTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +64,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Generate_Verification_Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +72,63 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\Program WorkSpace\Python\Project\Python_JEAutoControl\.circleci" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.win32_keyboard_test">
+    <configuration name="win32_keyboard_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_JEAutoControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/win32_keyboard_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="win32_mouse_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_JEAutoControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/win32_mouse_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.win32_keyboard_test" />
+        <item itemvalue="Python.win32_mouse_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,6 +145,8 @@
       <workItem from="1606482528947" duration="337000" />
       <workItem from="1606484147821" duration="9239000" />
       <workItem from="1606609758762" duration="3079000" />
+      <workItem from="1607570681486" duration="1733000" />
+      <workItem from="1625119959060" duration="4662000" />
     </task>
     <servers />
   </component>
@@ -86,14 +168,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606480134829">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606480134829" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1606440322700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606440322700" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_mouse_test.coverage" NAME="win32_mouse_test Coverage Results" MODIFIED="1625133893527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_keyboard_test.coverage" NAME="win32_keyboard_test Coverage Results" MODIFIED="1625133896415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

@@ -2,7 +2,6 @@ version: 2.1
 
 orbs:
   win: circleci/windows@2.2.0
-  python: circleci/python@1.2.1
 
 jobs:
   build-and-test:
@@ -13,11 +12,11 @@ jobs:
     steps:
       - checkout
       - run:
-          command: pip install --user JEAutoControl
-          name: pipSomething
+          command: pip install --user je_auto_control
+          name: pip je_auto_control
       - run:
-          command: python ./Test/Win32KeyboardTest.py
-          name: Test
+          command: python ./test/win32_keyboard_test.py
+          name: test
 
 workflows:
   main:
