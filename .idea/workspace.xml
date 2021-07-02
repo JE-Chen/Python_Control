@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/je_auto_control/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1607570681486" duration="1733000" />
       <workItem from="1625119959060" duration="12363000" />
       <workItem from="1625201550129" duration="324000" />
-      <workItem from="1625201899026" duration="2894000" />
+      <workItem from="1625201899026" duration="3233000" />
     </task>
     <servers />
   </component>
