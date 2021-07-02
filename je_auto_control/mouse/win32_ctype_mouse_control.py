@@ -1,7 +1,22 @@
-from je_auto_control.core.util.win32_ctype_input \
-    import (LEFTUP, LEFTDOWN, MIDDLEUP, MIDDLEDOWN, RIGHTUP, RIGHTDOWN, XUP, XDOWN, XBUTTON1, XBUTTON2, windll,
-            wintypes, ctypes,
-            Input, SendInput, Mouse, MouseInput, WHEEL)
+from je_auto_control.core.util.win32_ctype_input import LEFTUP
+from je_auto_control.core.util.win32_ctype_input import LEFTDOWN
+from je_auto_control.core.util.win32_ctype_input import MIDDLEUP
+from je_auto_control.core.util.win32_ctype_input import MIDDLEDOWN
+from je_auto_control.core.util.win32_ctype_input import RIGHTUP
+from je_auto_control.core.util.win32_ctype_input import RIGHTDOWN
+from je_auto_control.core.util.win32_ctype_input import XUP
+from je_auto_control.core.util.win32_ctype_input import XDOWN
+from je_auto_control.core.util.win32_ctype_input import XBUTTON1
+from je_auto_control.core.util.win32_ctype_input import XBUTTON2
+from je_auto_control.core.util.win32_ctype_input import windll
+from je_auto_control.core.util.win32_ctype_input import wintypes
+from je_auto_control.core.util.win32_ctype_input import ctypes
+from je_auto_control.core.util.win32_ctype_input import Input
+from je_auto_control.core.util.win32_ctype_input import SendInput
+from je_auto_control.core.util.win32_ctype_input import Mouse
+from je_auto_control.core.util.win32_ctype_input import MouseInput
+from je_auto_control.core.util.win32_ctype_input import WHEEL
+
 
 left = (LEFTUP, LEFTDOWN, 0)
 middle = (MIDDLEUP, MIDDLEDOWN, 0)
@@ -9,22 +24,22 @@ right = (RIGHTUP, RIGHTDOWN, 0)
 x1 = (XUP, XDOWN, XBUTTON1)
 x2 = (XUP, XDOWN, XBUTTON2)
 
-wheelData = 120
-getCursorPos = windll.user32.GetCursorPos
-setCursorPos = windll.user32.SetCursorPos
+wheel_data = 120
+get_cursor_pos = windll.user32.GetCursorPos
+set_cursor_pos = windll.user32.SetCursorPos
 
 
-def getPos():
+def get_pos():
     point = wintypes.POINT()
-    if getCursorPos(ctypes.byref(point)):
-        return (point.x, point.y)
+    if get_cursor_pos(ctypes.byref(point)):
+        return point.x, point.y
     else:
         return None
 
 
-def setPos(pos):
+def set_pos(pos):
     pos = int(pos[0]), int(pos[1])
-    setCursorPos(*pos)
+    set_cursor_pos(*pos)
 
 
 def wheel(dx=None, dy=None):
@@ -32,24 +47,24 @@ def wheel(dx=None, dy=None):
         SendInput(
             1,
             ctypes.byref(Input(type=Mouse, _input=Input.INPUT_Union(
-                mi=MouseInput(dwFlags=WHEEL, mouseData=int(dy * wheelData))))),
+                mi=MouseInput(dwFlags=WHEEL, mouseData=int(dy * wheel_data))))),
             ctypes.sizeof(Input))
     if dx:
         SendInput(
             1,
             ctypes.byref(Input(type=Mouse, _input=Input.INPUT_Union(
-                mi=MouseInput(dwFlags=WHEEL, mouseData=int(dx * wheelData))))),
+                mi=MouseInput(dwFlags=WHEEL, mouseData=int(dx * wheel_data))))),
             ctypes.sizeof(Input))
 
 
-def pressMouse(pressButton):
+def press_mouse(pressButton):
     SendInput(1, ctypes.byref(
         Input(type=Mouse, _input=Input.INPUT_Union(
             mi=MouseInput(dwFlags=pressButton[1], mouseData=pressButton[2])))),
               ctypes.sizeof(Input))
 
 
-def releaseMouse(pressButton):
+def release_mouse(pressButton):
     SendInput(1, ctypes.byref(
         Input(type=Mouse, _input=Input.INPUT_Union(
             mi=MouseInput(dwFlags=pressButton[0], mouseData=pressButton[2])))),

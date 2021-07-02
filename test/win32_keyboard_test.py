@@ -1,1 +1,5 @@
-from je_auto_control import keyboard
+from je_auto_control import *
+win32_ctype_keyboard_control.press_key(keyT)
+win32_ctype_keyboard_control.press_key(keyE)
+win32_ctype_keyboard_control.press_key(keyS)
+win32_ctype_keyboard_control.press_key(keyT)
