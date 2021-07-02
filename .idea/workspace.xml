@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/win32_keyboard_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/win32_keyboard_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/win32_mouse_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/win32_mouse_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,7 @@
       <workItem from="1607570681486" duration="1733000" />
       <workItem from="1625119959060" duration="12363000" />
       <workItem from="1625201550129" duration="324000" />
-      <workItem from="1625201899026" duration="1930000" />
+      <workItem from="1625201899026" duration="2486000" />
     </task>
     <servers />
   </component>
@@ -159,7 +159,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_mouse_test.coverage" NAME="win32_mouse_test Coverage Results" MODIFIED="1625203823322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_keyboard_test.coverage" NAME="win32_keyboard_test Coverage Results" MODIFIED="1625203107290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_mouse_test.coverage" NAME="win32_mouse_test Coverage Results" MODIFIED="1625204901525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_keyboard_test.coverage" NAME="win32_keyboard_test Coverage Results" MODIFIED="1625204879270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>
