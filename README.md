@@ -13,7 +13,7 @@
 
 #### Detail
 
-* Alpha version 0.0.2
+* Alpha version 0.0.3
 * Run on windows
 * pypi : https://pypi.org/project/je-auto-control/
 * Github : https://github.com/JE-Chen/Python_AutoControl

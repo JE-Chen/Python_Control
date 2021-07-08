@@ -5,16 +5,16 @@ with open("je_auto_control/README.md", "r") as README:
 
 setuptools.setup(
     name="je_auto_control",
-    version="0.0.2",
+    version="0.0.3",
     author="JE-Chen",
     author_email="zenmailman@gmail.com",
-    description="auto control alpha 0.0.2",
+    description="auto control alpha 0.0.3",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/JE-Chen/Python_AutoControl",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.7",
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Win32 (MS Windows)",
         "License :: OSI Approved :: MIT License",

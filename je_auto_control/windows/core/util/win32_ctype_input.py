@@ -1,7 +1,7 @@
 import ctypes
 from ctypes import wintypes
 from ctypes import windll
-from je_auto_control.core.util.win32_vk import *
+from je_auto_control.windows.core.util.win32_vk import *
 
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 
