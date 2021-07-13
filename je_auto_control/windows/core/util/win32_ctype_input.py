@@ -59,7 +59,6 @@ def _check_count(result, func, args):
         raise ctypes.WinError(ctypes.get_last_error())
     return args
 
-
 SendInput = user32.SendInput
 
 user32.SendInput.errcheck = _check_count

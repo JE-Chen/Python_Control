@@ -12,8 +12,8 @@ jobs:
     steps:
       - checkout
       - run:
-          command: pip install --user je_auto_control
-          name: pip je_auto_control
+          command: pip install --user -r requirements.txt
+          name: pip requirements.txt
       - run:
           command: python ./test/win32_keyboard_test.py
           name: test

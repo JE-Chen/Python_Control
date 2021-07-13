@@ -1,21 +1,26 @@
-#### je_auto_control.core
+# je_auto_control
 
-* ctype input
-* windows vk
+## install
+```
+pip install je_auto_control
+```
 
-#### je_auto_control.mouse
+## example 
 
-* mouse control
+### mouse
 
-#### je_auto_control.keyboard
+```python
 
-*  keyboard control
+```
 
-#### Detail
+### keyboard
 
-* Alpha version 0.0.3
-* Run on windows
-* pypi : https://pypi.org/project/je-auto-control/
-* Github : https://github.com/JE-Chen/Python_AutoControl
+```python
 
-##### you can use this lib to control windows mouse and keyboard
+```
+
+### screen
+
+```python
+
+```

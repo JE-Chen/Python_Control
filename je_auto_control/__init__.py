@@ -1,3 +1,4 @@
+from je_auto_control.util import template_detection
 from je_auto_control.windows.core.util.win32_vk import ABSOLUTE
 from je_auto_control.windows.core.util.win32_vk import EventF_EXTENDEDKEY
 from je_auto_control.windows.core.util.win32_vk import EventF_KEYUP
