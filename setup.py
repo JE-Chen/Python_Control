@@ -5,7 +5,7 @@ with open("README.md", "r") as README:
 
 setuptools.setup(
     name="je_auto_control",
-    version="0.0.5",
+    version="0.0.6",
     author="JE-Chen",
     author_email="zenmailman@gmail.com",
     description="auto control alpha 0.0.3",
@@ -18,7 +18,8 @@ setuptools.setup(
                       "numpy",
                       "pyobjc-core;platform_system=='Darwin'",
                       "pyobjc;platform_system=='Darwin'",
-                      "python3-Xlib;platform_system=='Linux'"],
+                      "python3-Xlib;platform_system=='Linux'",
+                      "opencv-contrib-python;platform_system=='Linux'"],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Development Status :: 2 - Pre-Alpha",
