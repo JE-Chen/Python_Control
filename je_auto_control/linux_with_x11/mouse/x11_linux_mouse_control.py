@@ -10,5 +10,5 @@ def position():
 
 
 def set_position(x, y):
-    fake_input(_display, X.MotionNotify, x=x, y=y)
+    fake_input(display, X.MotionNotify, x=x, y=y)
     display.sync()

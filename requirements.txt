@@ -2,3 +2,4 @@ je_auto_control
 je_open_cv
 pillow
 opencv-python
+python3-xlib;sys_platform == "linux2"
