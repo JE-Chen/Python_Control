@@ -1,3 +1,8 @@
+import sys
+
+if sys.platform != "win32":
+    raise Exception("win32_ctype_input should be only loaded on windows ")
+
 from je_auto_control.windows.core.util.win32_ctype_input import Input
 from je_auto_control.windows.core.util.win32_ctype_input import Keyboard
 from je_auto_control.windows.core.util.win32_ctype_input import KeyboardInput

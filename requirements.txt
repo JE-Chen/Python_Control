@@ -1,3 +1,4 @@
 je_auto_control
 je_open_cv
 pillow
+opencv-python

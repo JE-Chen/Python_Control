@@ -15,8 +15,8 @@ jobs:
           command: pip install --user -r requirements.txt
           name: pip requirements.txt
       - run:
-          command: python ./test/win32_keyboard_test.py
-          name: test
+          command: python ./circle_ci_test/win32_keyboard_test.py
+          name: win32_keyboard_test
 
 workflows:
   main:

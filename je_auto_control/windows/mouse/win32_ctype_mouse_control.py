@@ -1,3 +1,8 @@
+import sys
+
+if sys.platform != "win32":
+    raise Exception("win32_ctype_input should be only loaded on windows ")
+
 from je_auto_control.windows.core.util.win32_ctype_input import Input
 from je_auto_control.windows.core.util.win32_ctype_input import LEFTDOWN
 from je_auto_control.windows.core.util.win32_ctype_input import LEFTUP
@@ -37,8 +42,8 @@ def position():
         return None
 
 
-def set_position(pos):
-    pos = int(pos[0]), int(pos[1])
+def set_position(x, y):
+    pos = x, y
     set_cursor_pos(*pos)
 
 

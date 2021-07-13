@@ -13,7 +13,12 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/JE-Chen/Python_AutoControl",
     packages=setuptools.find_packages(),
-    install_requires=["je_open_cv", "pillow", "numpy"],
+    install_requires=["je_open_cv",
+                      "pillow",
+                      "numpy",
+                      "pyobjc-core;platform_system=='Darwin'",
+                      "pyobjc;platform_system=='Darwin'",
+                      "python3-Xlib;platform_system=='Linux'"],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Development Status :: 2 - Pre-Alpha",

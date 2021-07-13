@@ -1,3 +1,8 @@
+import sys
+
+if sys.platform != "win32":
+    raise Exception("win32_ctype_input should be only loaded on windows ")
+
 # mouse
 
 MOVE = 0x0001

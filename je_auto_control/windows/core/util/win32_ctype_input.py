@@ -1,3 +1,8 @@
+import sys
+
+if sys.platform != "win32":
+    raise Exception("win32_ctype_input should be only loaded on windows ")
+
 import ctypes
 from ctypes import wintypes
 from ctypes import windll
@@ -58,6 +63,7 @@ def _check_count(result, func, args):
     if result == 0:
         raise ctypes.WinError(ctypes.get_last_error())
     return args
+
 
 SendInput = user32.SendInput
 
