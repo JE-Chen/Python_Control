@@ -3,25 +3,25 @@ import sys
 if sys.platform != "win32":
     raise Exception("win32_ctype_input should be only loaded on windows ")
 
-from je_auto_control.windows.core.util.win32_ctype_input import Input
-from je_auto_control.windows.core.util.win32_ctype_input import win32_LEFTDOWN
-from je_auto_control.windows.core.util.win32_ctype_input import win32_LEFTUP
-from je_auto_control.windows.core.util.win32_ctype_input import win32_MIDDLEDOWN
-from je_auto_control.windows.core.util.win32_ctype_input import win32_MIDDLEUP
-from je_auto_control.windows.core.util.win32_ctype_input import Mouse
-from je_auto_control.windows.core.util.win32_ctype_input import MouseInput
-from je_auto_control.windows.core.util.win32_ctype_input import win32_RIGHTDOWN
-from je_auto_control.windows.core.util.win32_ctype_input import win32_RIGHTUP
-from je_auto_control.windows.core.util.win32_ctype_input import SendInput
-from je_auto_control.windows.core.util.win32_ctype_input import win32_XBUTTON1
-from je_auto_control.windows.core.util.win32_ctype_input import win32_XBUTTON2
-from je_auto_control.windows.core.util.win32_ctype_input import win32_DOWN
-from je_auto_control.windows.core.util.win32_ctype_input import win32_XUP
-from je_auto_control.windows.core.util.win32_ctype_input import ctypes
-from je_auto_control.windows.core.util.win32_ctype_input import windll
-from je_auto_control.windows.core.util.win32_ctype_input import wintypes
-from je_auto_control.windows.core.util.win32_ctype_mouse_event import mouse_event
-from je_auto_control.windows.core.util.win32_vk import win32_WHEEL
+from je_auto_control.windows.core.utils.win32_ctype_input import Input
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_LEFTDOWN
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_LEFTUP
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_MIDDLEDOWN
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_MIDDLEUP
+from je_auto_control.windows.core.utils.win32_ctype_input import Mouse
+from je_auto_control.windows.core.utils.win32_ctype_input import MouseInput
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_RIGHTDOWN
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_RIGHTUP
+from je_auto_control.windows.core.utils.win32_ctype_input import SendInput
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_XBUTTON1
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_XBUTTON2
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_DOWN
+from je_auto_control.windows.core.utils.win32_ctype_input import win32_XUP
+from je_auto_control.windows.core.utils.win32_ctype_input import ctypes
+from je_auto_control.windows.core.utils.win32_ctype_input import windll
+from je_auto_control.windows.core.utils.win32_ctype_input import wintypes
+from je_auto_control.windows.core.utils.win32_ctype_mouse_event import mouse_event
+from je_auto_control.windows.core.utils.win32_vk import win32_WHEEL
 from je_auto_control.windows.screen.win32_screen import size
 
 left = (win32_LEFTUP, win32_LEFTDOWN, 0)

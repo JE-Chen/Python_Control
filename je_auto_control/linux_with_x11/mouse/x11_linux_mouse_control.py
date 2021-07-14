@@ -1,7 +1,7 @@
 from Xlib import X
 from Xlib.ext.xtest import fake_input
 
-from je_auto_control.linux_with_x11.core.x11_linux_display import display
+from je_auto_control.linux_with_x11.core.utils.x11_linux_display import display
 
 mouse_left = 1
 mouse_middle = 2

@@ -3,7 +3,7 @@ import sys
 if sys.platform != "win32":
     raise Exception("win32_ctype_input should be only loaded on windows ")
 
-from je_auto_control.windows.core.util.win32_ctype_input import ctypes
+from je_auto_control.windows.core.utils.win32_ctype_input import ctypes
 from je_auto_control.windows.screen import size
 
 
