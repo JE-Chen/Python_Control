@@ -1,5 +1,5 @@
 import Xlib
-from je_auto_control.linux_with_x11.core.display import display
+from je_auto_control.linux_with_x11.core.x11_linux_display import display
 from Xlib import XK
 
 key_backspace = display.keysym_to_keycode(Xlib.XK.string_to_keysym("BackSpace"))

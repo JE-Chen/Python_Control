@@ -1,3 +1,3 @@
-from je_auto_control import screen
+from je_auto_control import win32_screen
 
-print(screen.size())
+print(win32_screen.size())

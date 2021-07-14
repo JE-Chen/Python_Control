@@ -8,7 +8,7 @@ from je_auto_control.windows.core.util.win32_ctype_input import Keyboard
 from je_auto_control.windows.core.util.win32_ctype_input import KeyboardInput
 from je_auto_control.windows.core.util.win32_ctype_input import SendInput
 from je_auto_control.windows.core.util.win32_ctype_input import ctypes
-from je_auto_control.windows.core.util.win32_ctype_input import EventF_KEYUP
+from je_auto_control.windows.core.util.win32_ctype_input import win32_EventF_KEYUP
 
 
 def press_key(keycode):
@@ -17,5 +17,5 @@ def press_key(keycode):
 
 
 def release_key(keycode):
-    x = Input(type=Keyboard, ki=KeyboardInput(wVk=keycode, dwFlags=EventF_KEYUP))
+    x = Input(type=Keyboard, ki=KeyboardInput(wVk=keycode, dwFlags=win32_EventF_KEYUP))
     SendInput(1, ctypes.byref(x), ctypes.sizeof(x))

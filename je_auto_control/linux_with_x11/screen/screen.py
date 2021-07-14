@@ -1,4 +1,4 @@
-from je_auto_control.linux_with_x11.core.display import display
+from je_auto_control.linux_with_x11.core.x11_linux_display import display
 
 
 def size():

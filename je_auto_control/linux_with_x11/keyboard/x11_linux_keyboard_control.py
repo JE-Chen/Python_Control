@@ -1,7 +1,6 @@
-from Xlib import X
+from je_auto_control.linux_with_x11.core.x11_linux_display import display
 from Xlib.ext.xtest import fake_input
-
-from je_auto_control.linux_with_x11.core.display import display
+from Xlib import X
 
 
 def press_key(keycode):

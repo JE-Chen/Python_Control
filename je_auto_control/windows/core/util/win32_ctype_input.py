@@ -35,8 +35,8 @@ class KeyboardInput(ctypes.Structure):
 
     def __init__(self, *args, **kwds):
         super(KeyboardInput, self).__init__(*args, **kwds)
-        if not self.dwFlags & EventF_UNICODE:
-            self.wScan = user32.MapVirtualKeyExW(self.wVk, VkToVSC, 0)
+        if not self.dwFlags & win32_EventF_UNICODE:
+            self.wScan = user32.MapVirtualKeyExW(self.wVk, win32_VkToVSC, 0)
 
 
 class HardwareInput(ctypes.Structure):
