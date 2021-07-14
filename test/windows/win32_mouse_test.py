@@ -11,3 +11,5 @@ mouse_control.press_mouse(right)
 mouse_control.release_mouse(right)
 mouse_control.press_mouse(left)
 mouse_control.release_mouse(left)
+
+mouse_control.click_mouse(left)

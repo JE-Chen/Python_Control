@@ -1,7 +1,7 @@
 import sys
 
-if sys.platform != "win32":
-    raise Exception("win32_ctype_input should be only loaded on windows ")
+if sys.platform not in ["win32", "cygwin", "msys"]:
+    raise Exception("should be only loaded on windows")
 
 from je_auto_control.windows.core.utils.win32_ctype_input import Input
 from je_auto_control.windows.core.utils.win32_ctype_input import win32_LEFTDOWN
@@ -54,11 +54,16 @@ def press_mouse(press_button):
               ctypes.sizeof(Input))
 
 
-def release_mouse(press_button):
+def release_mouse(release_button):
     SendInput(1, ctypes.byref(
         Input(type=Mouse, _input=Input.INPUT_Union(
-            mi=MouseInput(dwFlags=press_button[0], mouseData=press_button[2])))),
+            mi=MouseInput(dwFlags=release_button[0], mouseData=release_button[2])))),
               ctypes.sizeof(Input))
+
+
+def click_mouse(button_code):
+    press_mouse(button_code)
+    release_mouse(button_code)
 
 
 def scroll(wheel_value, x=None, y=None):

@@ -1,4 +1,10 @@
+import sys
+
+if sys.platform not in sys.platform in ["linux", "linux2"]:
+    raise Exception("should be only loaded on linux")
+
 import Xlib
+from Xlib import XK
 from je_auto_control.linux_with_x11.core.utils.x11_linux_display import display
 
 x11_linux_key_backspace = display.keysym_to_keycode(Xlib.XK.string_to_keysym("BackSpace"))

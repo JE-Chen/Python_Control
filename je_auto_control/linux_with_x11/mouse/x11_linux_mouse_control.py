@@ -3,13 +3,13 @@ from Xlib.ext.xtest import fake_input
 
 from je_auto_control.linux_with_x11.core.utils.x11_linux_display import display
 
-mouse_left = 1
-mouse_middle = 2
-mouse_right = 3
-scroll_direction_up = 4
-scroll_direction_down = 5
-scroll_direction_left = 6
-scroll_direction_right = 7
+x11_linux_mouse_left = 1
+x11_linux_mouse_middle = 2
+x11_linux_mouse_right = 3
+x11_linux_scroll_direction_up = 4
+x11_linux_scroll_direction_down = 5
+x11_linux_scroll_direction_left = 6
+x11_linux_scroll_direction_right = 7
 
 
 def position():

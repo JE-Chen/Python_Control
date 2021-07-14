@@ -1,7 +1,7 @@
 import sys
 
-if sys.platform != "win32":
-    raise Exception("win32_ctype_input should be only loaded on windows ")
+if sys.platform not in ["win32", "cygwin", "msys"]:
+    raise Exception("should be only loaded on windows")
 
 import ctypes
 
