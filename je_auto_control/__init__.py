@@ -171,10 +171,10 @@ if sys.platform in ["win32", "cygwin", "msys"]:
     from je_auto_control.windows.mouse import win32_ctype_mouse_control
     from je_auto_control.windows.screen import win32_screen
 
-elif sys.platform == "darwin":
+elif sys.platform in ["darwin"]:
     pass
 
-elif sys.platform not in ("darwin", "win32"):
+elif sys.platform in ["linux", "linux2"]:
     pass
 
 else:
