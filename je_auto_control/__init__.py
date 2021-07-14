@@ -354,6 +354,10 @@ elif sys.platform in ["darwin"]:
     from je_auto_control.linux_with_x11.core.utils.x11_linux_vk import x11_linux_key_8
     from je_auto_control.linux_with_x11.core.utils.x11_linux_vk import x11_linux_key_9
     from je_auto_control.linux_with_x11.core.utils.x11_linux_vk import x11_linux_key_0
+    from je_auto_control.linux_with_x11.keyboard import x11_linux_keyboard_control
+    from je_auto_control.linux_with_x11.mouse import x11_linux_mouse_control
+    from je_auto_control.linux_with_x11.screen import x11_linux_screen
+
 
 elif sys.platform in ["linux", "linux2"]:
     pass

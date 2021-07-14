@@ -1,11 +1,13 @@
-from je_auto_control.linux_with_x11.keyboard.x11_linux_keyboard_control import press_key
-from je_auto_control.linux_with_x11.keyboard.x11_linux_keyboard_control import release_key
+from je_auto_control import x11_linux_keyboard_control as linux_keyboard
+from je_auto_control import x11_linux_key_t
+from je_auto_control import x11_linux_key_e
+from je_auto_control import x11_linux_key_s
 
-press_key(key_t)
-release_key(key_t)
-press_key(key_e)
-release_key(key_e)
-press_key(key_s)
-release_key(key_s)
-press_key(key_t)
-release_key(key_t)
+linux_keyboard.press_key(x11_linux_key_t)
+linux_keyboard.release_key(x11_linux_key_t)
+linux_keyboard.press_key(x11_linux_key_e)
+linux_keyboard.release_key(x11_linux_key_e)
+linux_keyboard.press_key(x11_linux_key_s)
+linux_keyboard.release_key(x11_linux_key_s)
+linux_keyboard.press_key(x11_linux_key_t)
+linux_keyboard.release_key(x11_linux_key_t)
