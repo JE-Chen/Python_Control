@@ -1,6 +1,6 @@
 import sys
 
-if sys.platform == "win32":
+if sys.platform in ["win32", "cygwin", "msys"]:
     from je_auto_control.windows.core.util.win32_vk import win32_ABSOLUTE
     from je_auto_control.windows.core.util.win32_vk import win32_EventF_EXTENDEDKEY
     from je_auto_control.windows.core.util.win32_vk import win32_EventF_KEYUP

@@ -20,23 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09ba2e0-8488-47b6-a98a-65df0e6a0ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/circle_ci_test/win32_keyboard_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle_ci_test/win32_keyboard_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/je_auto_control/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/linux_with_x11/core/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/linux_with_x11/core/x11_linux_display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/linux_with_x11/core/x11_vk.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/linux_with_x11/core/x11_linux_vk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/linux_with_x11/keyboard/x11_linux_keyboard_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/linux_with_x11/keyboard/x11_linux_keyboard_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/linux_with_x11/mouse/x11_linux_mouse_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/linux_with_x11/mouse/x11_linux_mouse_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/linux_with_x11/screen/screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/linux_with_x11/screen/screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/core/util/win32_ctype_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/core/util/win32_ctype_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/core/util/win32_vk.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/core/util/win32_vk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/keyboard/win32_ctype_keyboard_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/keyboard/win32_ctype_keyboard_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/mouse/win32_ctype_mouse_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/mouse/win32_ctype_mouse_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/screen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/screen/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/je_auto_control/windows/screen/screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/je_auto_control/windows/screen/win32_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/windows/win32_ctype_screen_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/windows/win32_ctype_screen_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/windows/win32_keyboard_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/windows/win32_keyboard_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +239,7 @@
       <workItem from="1626033591574" duration="9213000" />
       <workItem from="1626055336608" duration="23823000" />
       <workItem from="1626183277426" duration="10401000" />
-      <workItem from="1626247650656" duration="5145000" />
+      <workItem from="1626247650656" duration="5451000" />
     </task>
     <servers />
   </component>
