@@ -95,3 +95,7 @@ key_up = 0x7e
 key_yen = 0x5d
 key_eisu = 0x66
 key_kana = 0x68
+
+mouse_left = "Left"
+mouse_middle = "Middle"
+mouse_right = "Right"

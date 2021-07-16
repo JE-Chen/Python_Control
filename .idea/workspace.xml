@@ -86,7 +86,7 @@
       <recent name="D:\WorkSpaces\Program WorkSpace\Python\Project\Python_JEAutoControl\je_auto_control\core\windows" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.linux_x11_mouse_scroll_test">
+  <component name="RunManager" selected="Python.osx_mouse">
     <configuration name="linux_x11_mouse_scroll_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_JEAutoControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,9 +94,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/linux" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="template_detection_multi_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="osx_mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_JEAutoControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,12 +117,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/je_auto_control/osx/mouse" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/windows/template_detection_multi_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/je_auto_control/osx/mouse/osx_mouse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="osx_screen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_JEAutoControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/je_auto_control/osx/screen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/je_auto_control/osx/screen/osx_screen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,35 +197,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="win32_scroll_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_JEAutoControl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/windows" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/windows/win32_scroll_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.linux_x11_mouse_scroll_test" />
+      <item itemvalue="Python.win32_keyboard_test" />
+      <item itemvalue="Python.win32_mouse_test (1)" />
+      <item itemvalue="Python.osx_screen" />
+      <item itemvalue="Python.osx_mouse" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.osx_mouse" />
+        <item itemvalue="Python.osx_screen" />
         <item itemvalue="Python.linux_x11_mouse_scroll_test" />
         <item itemvalue="Python.win32_keyboard_test" />
         <item itemvalue="Python.win32_mouse_test (1)" />
-        <item itemvalue="Python.win32_scroll_test" />
-        <item itemvalue="Python.template_detection_multi_test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +251,12 @@
       <workItem from="1626379721487" duration="49000" />
       <workItem from="1626379813030" duration="1840000" />
       <workItem from="1626416579620" duration="8516000" />
+      <workItem from="1626428946149" duration="1105000" />
+      <workItem from="1626430081293" duration="1695000" />
+      <workItem from="1626433769473" duration="762000" />
+      <workItem from="1626434590865" duration="1051000" />
+      <workItem from="1626435650520" duration="3733000" />
+      <workItem from="1626455329903" duration="5057000" />
     </task>
     <servers />
   </component>
@@ -269,9 +282,11 @@
     <SUITE FILE_PATH="coverage/Python_AutoControl$win32_keyboard_test.coverage" NAME="win32_keyboard_test Coverage Results" MODIFIED="1626380422121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$template_detection.coverage" NAME="template_detection Coverage Results" MODIFIED="1626033726830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/je_auto_control/util" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$ctype_screen_test.coverage" NAME="ctype_screen_test Coverage Results" MODIFIED="1626164847448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_AutoControl$osx_screen.coverage" NAME="osx_screen Coverage Results" MODIFIED="1626455392248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/je_auto_control/osx/screen" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_scroll_test.coverage" NAME="win32_scroll_test Coverage Results" MODIFIED="1626275153551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_scroll_test__1_.coverage" NAME="win32_scroll_test (1) Coverage Results" MODIFIED="1626251835407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_mouse_test.coverage" NAME="win32_mouse_test Coverage Results" MODIFIED="1626174863892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_AutoControl$osx_mouse.coverage" NAME="osx_mouse Coverage Results" MODIFIED="1626464456552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/je_auto_control/osx/mouse" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_keyboard_test.coverage" NAME="win32_keyboard_test Coverage Results" MODIFIED="1626275141892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$template_detection_multi_test.coverage" NAME="template_detection_multi_test Coverage Results" MODIFIED="1626252086900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
     <SUITE FILE_PATH="coverage/Python_JEAutoControl$win32_mouse_test__1_.coverage" NAME="win32_mouse_test (1) Coverage Results" MODIFIED="1626275148205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/windows" />
