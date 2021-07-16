@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 .idea/discord.xml
 .idea/workspace.xml
+.idea/misc.xml
+.idea/Python_JEAutoControl.iml
+.idea/workspace.xml
