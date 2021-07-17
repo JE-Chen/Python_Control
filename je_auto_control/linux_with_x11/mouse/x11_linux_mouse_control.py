@@ -1,3 +1,8 @@
+import sys
+
+if sys.platform not in ["linux", "linux2"]:
+    raise Exception("should be only loaded on linux")
+
 from Xlib import X
 from Xlib.ext.xtest import fake_input
 

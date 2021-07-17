@@ -1,6 +1,6 @@
 import sys
 
-if sys.platform not in sys.platform in ["darwin"]:
+if sys.platform not in ["darwin"]:
     raise Exception("should be only loaded on MacOS")
 
 import time

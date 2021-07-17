@@ -1,6 +1,6 @@
 import sys
 
-if sys.platform not in sys.platform in ["darwin"]:
+if sys.platform not in ["darwin"]:
     raise Exception("should be only loaded on MacOS")
 
 osx_key_a = osx_key_A = 0x00
