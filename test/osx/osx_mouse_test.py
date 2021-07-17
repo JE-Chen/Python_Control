@@ -1,1 +1,1 @@
-import je_auto_control
+from je_auto_control import osx_mouse
