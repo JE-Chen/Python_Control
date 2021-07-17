@@ -172,105 +172,105 @@ if sys.platform in ["win32", "cygwin", "msys"]:
     from je_auto_control.windows.screen import win32_screen
 
 elif sys.platform in ["darwin"]:
-    from osx.core.osx_vk import osx_key_a, osx_key_A
-    from osx.core.osx_vk import osx_key_b, osx_key_B
-    from osx.core.osx_vk import osx_key_c, osx_key_C
-    from osx.core.osx_vk import osx_key_d, osx_key_D
-    from osx.core.osx_vk import osx_key_e, osx_key_E
-    from osx.core.osx_vk import osx_key_f, osx_key_F
-    from osx.core.osx_vk import osx_key_g, osx_key_G
-    from osx.core.osx_vk import osx_key_h, osx_key_H
-    from osx.core.osx_vk import osx_key_i, osx_key_I
-    from osx.core.osx_vk import osx_key_j, osx_key_J
-    from osx.core.osx_vk import osx_key_k, osx_key_K
-    from osx.core.osx_vk import osx_key_l, osx_key_L
-    from osx.core.osx_vk import osx_key_m, osx_key_M
-    from osx.core.osx_vk import osx_key_n, osx_key_N
-    from osx.core.osx_vk import osx_key_o, osx_key_O
-    from osx.core.osx_vk import osx_key_p, osx_key_P
-    from osx.core.osx_vk import osx_key_q, osx_key_Q
-    from osx.core.osx_vk import osx_key_r, osx_key_R
-    from osx.core.osx_vk import osx_key_s, osx_key_S
-    from osx.core.osx_vk import osx_key_t, osx_key_T
-    from osx.core.osx_vk import osx_key_u, osx_key_U
-    from osx.core.osx_vk import osx_key_v, osx_key_V
-    from osx.core.osx_vk import osx_key_w, osx_key_W
-    from osx.core.osx_vk import osx_key_x, osx_key_X
-    from osx.core.osx_vk import osx_key_y, osx_key_Y
-    from osx.core.osx_vk import osx_key_z, osx_key_Z
-    from osx.core.osx_vk import osx_key_1, osx_key_exclam
-    from osx.core.osx_vk import osx_key_2, osx_key_at
-    from osx.core.osx_vk import osx_key_3, osx_key_numbersign
-    from osx.core.osx_vk import osx_key_4, osx_key_money
-    from osx.core.osx_vk import osx_key_5, osx_key_percent
-    from osx.core.osx_vk import osx_key_6, osx_key_asciicicum
-    from osx.core.osx_vk import osx_key_7, osx_key_ampersand
-    from osx.core.osx_vk import osx_key_8, osx_key_asterisk
-    from osx.core.osx_vk import osx_key_9, osx_key_parenleft
-    from osx.core.osx_vk import osx_key_0, osx_key_parenright
-    from osx.core.osx_vk import osx_key_equal, osx_key_plus
-    from osx.core.osx_vk import osx_key_minus, osx_key_underscore
-    from osx.core.osx_vk import osx_key_bracketright, osx_key_braceright
-    from osx.core.osx_vk import osx_key_bracketleft, osx_key_braceleft
-    from osx.core.osx_vk import osx_key_apostrophe, osx_key_quotedbl
-    from osx.core.osx_vk import osx_key_semicolon, osx_key_colon
-    from osx.core.osx_vk import osx_key_backslash, osx_key_bar
-    from osx.core.osx_vk import osx_key_comma, osx_key_less
-    from osx.core.osx_vk import osx_key_salsh, osx_key_question
-    from osx.core.osx_vk import osx_key_period, osx_key_greater
-    from osx.core.osx_vk import osx_key_grave, osx_key_asciitilde
-    from osx.core.osx_vk import osx_key_space
-    from osx.core.osx_vk import osx_key_return, osx_key_newline, osx_key_enter
-    from osx.core.osx_vk import osx_key_tab
-    from osx.core.osx_vk import osx_key_backspace
-    from osx.core.osx_vk import osx_key_esc
-    from osx.core.osx_vk import osx_key_command
-    from osx.core.osx_vk import osx_key_shift
-    from osx.core.osx_vk import osx_key_caps_lock
-    from osx.core.osx_vk import osx_key_option, osx_key_alt
-    from osx.core.osx_vk import osx_key_ctrl
-    from osx.core.osx_vk import osx_key_shift_right
-    from osx.core.osx_vk import osx_key_option_right
-    from osx.core.osx_vk import osx_key_control_right
-    from osx.core.osx_vk import osx_key_fn
-    from osx.core.osx_vk import osx_key_volume_up
-    from osx.core.osx_vk import osx_key_volume_down
-    from osx.core.osx_vk import osx_key_volume_mute
-    from osx.core.osx_vk import osx_key_f1
-    from osx.core.osx_vk import osx_key_f2
-    from osx.core.osx_vk import osx_key_f3
-    from osx.core.osx_vk import osx_key_f4
-    from osx.core.osx_vk import osx_key_f5
-    from osx.core.osx_vk import osx_key_f6
-    from osx.core.osx_vk import osx_key_f7
-    from osx.core.osx_vk import osx_key_f8
-    from osx.core.osx_vk import osx_key_f9
-    from osx.core.osx_vk import osx_key_f10
-    from osx.core.osx_vk import osx_key_f11
-    from osx.core.osx_vk import osx_key_f12
-    from osx.core.osx_vk import osx_key_f13
-    from osx.core.osx_vk import osx_key_f14
-    from osx.core.osx_vk import osx_key_f15
-    from osx.core.osx_vk import osx_key_f16
-    from osx.core.osx_vk import osx_key_f17
-    from osx.core.osx_vk import osx_key_f18
-    from osx.core.osx_vk import osx_key_f19
-    from osx.core.osx_vk import osx_key_f20
-    from osx.core.osx_vk import osx_key_help
-    from osx.core.osx_vk import osx_key_home
-    from osx.core.osx_vk import osx_key_pageup
-    from osx.core.osx_vk import osx_key_end
-    from osx.core.osx_vk import osx_key_pagedown
-    from osx.core.osx_vk import osx_key_left
-    from osx.core.osx_vk import osx_key_right
-    from osx.core.osx_vk import osx_key_down
-    from osx.core.osx_vk import osx_key_up
-    from osx.core.osx_vk import osx_key_yen
-    from osx.core.osx_vk import osx_key_eisu
-    from osx.core.osx_vk import osx_key_kana
-    from osx.core.osx_vk import osx_mouse_left
-    from osx.core.osx_vk import osx_mouse_middle
-    from osx.core.osx_vk import osx_mouse_right
+    from je_atuo_control.osx.core.osx_vk import osx_key_a, osx_key_A
+    from je_atuo_control.osx.core.osx_vk import osx_key_b, osx_key_B
+    from je_atuo_control.osx.core.osx_vk import osx_key_c, osx_key_C
+    from je_atuo_control.osx.core.osx_vk import osx_key_d, osx_key_D
+    from je_atuo_control.osx.core.osx_vk import osx_key_e, osx_key_E
+    from je_atuo_control.osx.core.osx_vk import osx_key_f, osx_key_F
+    from je_atuo_control.osx.core.osx_vk import osx_key_g, osx_key_G
+    from je_atuo_control.osx.core.osx_vk import osx_key_h, osx_key_H
+    from je_atuo_control.osx.core.osx_vk import osx_key_i, osx_key_I
+    from je_atuo_control.osx.core.osx_vk import osx_key_j, osx_key_J
+    from je_atuo_control.osx.core.osx_vk import osx_key_k, osx_key_K
+    from je_atuo_control.osx.core.osx_vk import osx_key_l, osx_key_L
+    from je_atuo_control.osx.core.osx_vk import osx_key_m, osx_key_M
+    from je_atuo_control.osx.core.osx_vk import osx_key_n, osx_key_N
+    from je_atuo_control.osx.core.osx_vk import osx_key_o, osx_key_O
+    from je_atuo_control.osx.core.osx_vk import osx_key_p, osx_key_P
+    from je_atuo_control.osx.core.osx_vk import osx_key_q, osx_key_Q
+    from je_atuo_control.osx.core.osx_vk import osx_key_r, osx_key_R
+    from je_atuo_control.osx.core.osx_vk import osx_key_s, osx_key_S
+    from je_atuo_control.osx.core.osx_vk import osx_key_t, osx_key_T
+    from je_atuo_control.osx.core.osx_vk import osx_key_u, osx_key_U
+    from je_atuo_control.osx.core.osx_vk import osx_key_v, osx_key_V
+    from je_atuo_control.osx.core.osx_vk import osx_key_w, osx_key_W
+    from je_atuo_control.osx.core.osx_vk import osx_key_x, osx_key_X
+    from je_atuo_control.osx.core.osx_vk import osx_key_y, osx_key_Y
+    from je_atuo_control.osx.core.osx_vk import osx_key_z, osx_key_Z
+    from je_atuo_control.osx.core.osx_vk import osx_key_1, osx_key_exclam
+    from je_atuo_control.osx.core.osx_vk import osx_key_2, osx_key_at
+    from je_atuo_control.osx.core.osx_vk import osx_key_3, osx_key_numbersign
+    from je_atuo_control.osx.core.osx_vk import osx_key_4, osx_key_money
+    from je_atuo_control.osx.core.osx_vk import osx_key_5, osx_key_percent
+    from je_atuo_control.osx.core.osx_vk import osx_key_6, osx_key_asciicicum
+    from je_atuo_control.osx.core.osx_vk import osx_key_7, osx_key_ampersand
+    from je_atuo_control.osx.core.osx_vk import osx_key_8, osx_key_asterisk
+    from je_atuo_control.osx.core.osx_vk import osx_key_9, osx_key_parenleft
+    from je_atuo_control.osx.core.osx_vk import osx_key_0, osx_key_parenright
+    from je_atuo_control.osx.core.osx_vk import osx_key_equal, osx_key_plus
+    from je_atuo_control.osx.core.osx_vk import osx_key_minus, osx_key_underscore
+    from je_atuo_control.osx.core.osx_vk import osx_key_bracketright, osx_key_braceright
+    from je_atuo_control.osx.core.osx_vk import osx_key_bracketleft, osx_key_braceleft
+    from je_atuo_control.osx.core.osx_vk import osx_key_apostrophe, osx_key_quotedbl
+    from je_atuo_control.osx.core.osx_vk import osx_key_semicolon, osx_key_colon
+    from je_atuo_control.osx.core.osx_vk import osx_key_backslash, osx_key_bar
+    from je_atuo_control.osx.core.osx_vk import osx_key_comma, osx_key_less
+    from je_atuo_control.osx.core.osx_vk import osx_key_salsh, osx_key_question
+    from je_atuo_control.osx.core.osx_vk import osx_key_period, osx_key_greater
+    from je_atuo_control.osx.core.osx_vk import osx_key_grave, osx_key_asciitilde
+    from je_atuo_control.osx.core.osx_vk import osx_key_space
+    from je_atuo_control.osx.core.osx_vk import osx_key_return, osx_key_newline, osx_key_enter
+    from je_atuo_control.osx.core.osx_vk import osx_key_tab
+    from je_atuo_control.osx.core.osx_vk import osx_key_backspace
+    from je_atuo_control.osx.core.osx_vk import osx_key_esc
+    from je_atuo_control.osx.core.osx_vk import osx_key_command
+    from je_atuo_control.osx.core.osx_vk import osx_key_shift
+    from je_atuo_control.osx.core.osx_vk import osx_key_caps_lock
+    from je_atuo_control.osx.core.osx_vk import osx_key_option, osx_key_alt
+    from je_atuo_control.osx.core.osx_vk import osx_key_ctrl
+    from je_atuo_control.osx.core.osx_vk import osx_key_shift_right
+    from je_atuo_control.osx.core.osx_vk import osx_key_option_right
+    from je_atuo_control.osx.core.osx_vk import osx_key_control_right
+    from je_atuo_control.osx.core.osx_vk import osx_key_fn
+    from je_atuo_control.osx.core.osx_vk import osx_key_volume_up
+    from je_atuo_control.osx.core.osx_vk import osx_key_volume_down
+    from je_atuo_control.osx.core.osx_vk import osx_key_volume_mute
+    from je_atuo_control.osx.core.osx_vk import osx_key_f1
+    from je_atuo_control.osx.core.osx_vk import osx_key_f2
+    from je_atuo_control.osx.core.osx_vk import osx_key_f3
+    from je_atuo_control.osx.core.osx_vk import osx_key_f4
+    from je_atuo_control.osx.core.osx_vk import osx_key_f5
+    from je_atuo_control.osx.core.osx_vk import osx_key_f6
+    from je_atuo_control.osx.core.osx_vk import osx_key_f7
+    from je_atuo_control.osx.core.osx_vk import osx_key_f8
+    from je_atuo_control.osx.core.osx_vk import osx_key_f9
+    from je_atuo_control.osx.core.osx_vk import osx_key_f10
+    from je_atuo_control.osx.core.osx_vk import osx_key_f11
+    from je_atuo_control.osx.core.osx_vk import osx_key_f12
+    from je_atuo_control.osx.core.osx_vk import osx_key_f13
+    from je_atuo_control.osx.core.osx_vk import osx_key_f14
+    from je_atuo_control.osx.core.osx_vk import osx_key_f15
+    from je_atuo_control.osx.core.osx_vk import osx_key_f16
+    from je_atuo_control.osx.core.osx_vk import osx_key_f17
+    from je_atuo_control.osx.core.osx_vk import osx_key_f18
+    from je_atuo_control.osx.core.osx_vk import osx_key_f19
+    from je_atuo_control.osx.core.osx_vk import osx_key_f20
+    from je_atuo_control.osx.core.osx_vk import osx_key_help
+    from je_atuo_control.osx.core.osx_vk import osx_key_home
+    from je_atuo_control.osx.core.osx_vk import osx_key_pageup
+    from je_atuo_control.osx.core.osx_vk import osx_key_end
+    from je_atuo_control.osx.core.osx_vk import osx_key_pagedown
+    from je_atuo_control.osx.core.osx_vk import osx_key_left
+    from je_atuo_control.osx.core.osx_vk import osx_key_right
+    from je_atuo_control.osx.core.osx_vk import osx_key_down
+    from je_atuo_control.osx.core.osx_vk import osx_key_up
+    from je_atuo_control.osx.core.osx_vk import osx_key_yen
+    from je_atuo_control.osx.core.osx_vk import osx_key_eisu
+    from je_atuo_control.osx.core.osx_vk import osx_key_kana
+    from je_atuo_control.osx.core.osx_vk import osx_mouse_left
+    from je_atuo_control.osx.core.osx_vk import osx_mouse_middle
+    from je_atuo_control.osx.core.osx_vk import osx_mouse_right
     from je_auto_control.osx.mouse import osx_mouse
     from je_auto_control.osx.screen import osx_screen
     from je_auto_control.osx.keyboard import osx_keyboard
