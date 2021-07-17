@@ -18,8 +18,8 @@ setuptools.setup(
                       "numpy",
                       "pyobjc-core;platform_system=='Darwin'",
                       "pyobjc;platform_system=='Darwin'",
-                      "python3-Xlib;platform_system=='Linux'",
-                      "opencv-contrib-python;platform_system=='Linux'"],
+                      "python3-Xlib;platform_system=='Linux'"
+                      ],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Development Status :: 2 - Pre-Alpha",
