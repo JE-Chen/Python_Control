@@ -24,11 +24,11 @@ from je_auto_control.windows.core.utils.win32_ctype_mouse_event import mouse_eve
 from je_auto_control.windows.core.utils.win32_vk import win32_WHEEL
 from je_auto_control.windows.screen.win32_screen import size
 
-left = (win32_LEFTUP, win32_LEFTDOWN, 0)
-middle = (win32_MIDDLEUP, win32_MIDDLEDOWN, 0)
-right = (win32_RIGHTUP, win32_RIGHTDOWN, 0)
-x1 = (win32_XUP, win32_DOWN, win32_XBUTTON1)
-x2 = (win32_XUP, win32_DOWN, win32_XBUTTON2)
+win32_mouse_left = (win32_LEFTUP, win32_LEFTDOWN, 0)
+win32_mouse_middle = (win32_MIDDLEUP, win32_MIDDLEDOWN, 0)
+win32_mouse_right = (win32_RIGHTUP, win32_RIGHTDOWN, 0)
+win32_mouse_x1 = (win32_XUP, win32_DOWN, win32_XBUTTON1)
+win32_mouse_x2 = (win32_XUP, win32_DOWN, win32_XBUTTON2)
 
 get_cursor_pos = windll.user32.GetCursorPos
 set_cursor_pos = windll.user32.SetCursorPos
