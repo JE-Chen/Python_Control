@@ -33,21 +33,21 @@ osx_key_minus = osx_key_underscore = 0x1b
 osx_key_8 = osx_key_asterisk = 0x1c
 osx_key_0 = osx_key_parenright = 0x1d
 osx_key_bracketright = osx_key_braceright = 0x1e
-osx_key_o = 0x1f
-osx_key_u = 0x20
+osx_key_o = osx_key_O = 0x1f
+osx_key_u = osx_key_U = 0x20
 osx_key_bracketleft = osx_key_braceleft = 0x21
-osx_key_i = 0x22
-osx_key_p = 0x23
-osx_key_l = 0x25
-osx_key_j = 0x26
+osx_key_i = osx_key_I = 0x22
+osx_key_p = osx_key_P = 0x23
+osx_key_l = osx_key_L = 0x25
+osx_key_j = osx_key_J = 0x26
 osx_key_apostrophe = osx_key_quotedbl = 0x27
-osx_key_k = 0x28
+osx_key_k = osx_key_K = 0x28
 osx_key_semicolon = osx_key_colon = 0x29
 osx_key_backslash = osx_key_bar = 0x2a
 osx_key_comma = osx_key_less = 0x2b
 osx_key_salsh = osx_key_question = 0x2c
-osx_key_n = 0x2d
-osx_key_m = 0x2e
+osx_key_n = osx_key_N = 0x2d
+osx_key_m = osx_key_M = 0x2e
 osx_key_period = osx_key_greater = 0x2f
 osx_key_grave = osx_key_asciitilde = 0x32
 osx_key_space = 0x31
