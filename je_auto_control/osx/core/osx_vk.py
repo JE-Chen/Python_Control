@@ -1,101 +1,106 @@
-key_a = key_A = 0x00
-key_s = key_S = 0x01
-key_d = key_D = 0x02
-key_f = key_F = 0x03
-key_h = key_H = 0x04
-key_g = key_G = 0x05
-key_z = key_Z = 0x06
-key_x = key_X = 0x07
-key_c = key_C = 0x08
-key_v = key_V = 0x09
-key_b = key_B = 0x0b
-key_q = key_Q = 0x0c
-key_w = key_W = 0x0d
-key_e = key_E = 0x0e
-key_r = key_R = 0x0f
-key_y = key_Y = 0x10
-key_t = key_T = 0x11
-key_1 = key_exclam= 0x12
-key_2 = key_at = 0x13
-key_3 = key_numbersign = 0x14
-key_4 = key_money = 0x15
-key_6 = key_asciicicum = 0x16
-key_5 = key_percent = 0x17
-key_equal = key_plus = 0x18
-key_9 = key_parenleft = 0x19
-key_7 = key_ampersand = 0x1a
-key_minus = key_underscore = 0x1b
-key_8 = key_asterisk = 0x1c
-key_0 = key_parenright = 0x1d
-key_bracketright = key_braceright = 0x1e
-key_o = 0x1f
-key_u = 0x20
-key_bracketleft = key_braceleft = 0x21
-key_i = 0x22
-key_p = 0x23
-key_l = 0x25
-key_j = 0x26
-key_apostrophe = key_quotedbl = 0x27
-key_k = 0x28
-key_semicolon = key_colon = 0x29
-key_backslash = key_bar = 0x2a
-key_comma = key_less = 0x2b
-key_salsh = key_question = 0x2c
-key_n = 0x2d
-key_m = 0x2e
-key_period = key_greater = 0x2f
-key_grave = key_asciitilde = 0x32
-key_space = 0x31
-key_return = key_newline = key_enter = 0x24
-key_tab = 0x30
-key_backspace = 0x33
-key_esc = 0x35
-key_command = 0x37
-key_shift = 0x38
-key_caps_lock = 0x39
-key_option = key_alt = 0x3a
-key_ctrl = 0x3b
-key_shift_right = 0x3c
-key_option_right = 0x3d
-key_control_right = 0x3e
-key_fn = 0x3f
-key_f17 = 0x40
-key_volume_up = 0x48
-key_volume_down = 0x49
-key_volume_mute = 0x4a
-key_f18 = 0x4f
-key_f19 = 0x50
-key_f20 = 0x5a
-key_f5 = 0x60
-key_f6 = 0x61
-key_f7 = 0x62
-key_f3 = 0x63
-key_f8 = 0x64
-key_f9 = 0x65
-key_f11 = 0x67
-key_f13 = 0x69
-key_f16 = 0x6a
-key_f14 = 0x6b
-key_f10 = 0x6d
-key_f12 = 0x6f
-key_f15 = 0x71
-key_help = 0x72
-key_home = 0x73
-key_pageup = 0x74
-key_delete = 0x75
-key_f4 = 0x76
-key_end = 0x77
-key_f2 = 0x78
-key_pagedown = 0x79
-key_f1 = 0x7a
-key_left = 0x7b
-key_right = 0x7c
-key_down = 0x7d
-key_up = 0x7e
-key_yen = 0x5d
-key_eisu = 0x66
-key_kana = 0x68
+import sys
 
-mouse_left = "Left"
-mouse_middle = "Middle"
-mouse_right = "Right"
+if sys.platform not in sys.platform in ["darwin"]:
+    raise Exception("should be only loaded on MacOS")
+
+osx_key_a = osx_key_A = 0x00
+osx_key_s = osx_key_S = 0x01
+osx_key_d = osx_key_D = 0x02
+osx_key_f = osx_key_F = 0x03
+osx_key_h = osx_key_H = 0x04
+osx_key_g = osx_key_G = 0x05
+osx_key_z = osx_key_Z = 0x06
+osx_key_x = osx_key_X = 0x07
+osx_key_c = osx_key_C = 0x08
+osx_key_v = osx_key_V = 0x09
+osx_key_b = osx_key_B = 0x0b
+osx_key_q = osx_key_Q = 0x0c
+osx_key_w = osx_key_W = 0x0d
+osx_key_e = osx_key_E = 0x0e
+osx_key_r = osx_key_R = 0x0f
+osx_key_y = osx_key_Y = 0x10
+osx_key_t = osx_key_T = 0x11
+osx_key_1 = osx_key_exclam = 0x12
+osx_key_2 = osx_key_at = 0x13
+osx_key_3 = osx_key_numbersign = 0x14
+osx_key_4 = osx_key_money = 0x15
+osx_key_6 = osx_key_asciicicum = 0x16
+osx_key_5 = osx_key_percent = 0x17
+osx_key_equal = osx_key_plus = 0x18
+osx_key_9 = osx_key_parenleft = 0x19
+osx_key_7 = osx_key_ampersand = 0x1a
+osx_key_minus = osx_key_underscore = 0x1b
+osx_key_8 = osx_key_asterisk = 0x1c
+osx_key_0 = osx_key_parenright = 0x1d
+osx_key_bracketright = osx_key_braceright = 0x1e
+osx_key_o = 0x1f
+osx_key_u = 0x20
+osx_key_bracketleft = osx_key_braceleft = 0x21
+osx_key_i = 0x22
+osx_key_p = 0x23
+osx_key_l = 0x25
+osx_key_j = 0x26
+osx_key_apostrophe = osx_key_quotedbl = 0x27
+osx_key_k = 0x28
+osx_key_semicolon = osx_key_colon = 0x29
+osx_key_backslash = osx_key_bar = 0x2a
+osx_key_comma = osx_key_less = 0x2b
+osx_key_salsh = osx_key_question = 0x2c
+osx_key_n = 0x2d
+osx_key_m = 0x2e
+osx_key_period = osx_key_greater = 0x2f
+osx_key_grave = osx_key_asciitilde = 0x32
+osx_key_space = 0x31
+osx_key_return = osx_key_newline = osx_key_enter = 0x24
+osx_key_tab = 0x30
+osx_key_backspace = 0x33
+osx_key_esc = 0x35
+osx_key_command = 0x37
+osx_key_shift = 0x38
+osx_key_caps_lock = 0x39
+osx_key_option = osx_key_alt = 0x3a
+osx_key_ctrl = 0x3b
+osx_key_shift_right = 0x3c
+osx_key_option_right = 0x3d
+osx_key_control_right = 0x3e
+osx_key_fn = 0x3f
+osx_key_f17 = 0x40
+osx_key_volume_up = 0x48
+osx_key_volume_down = 0x49
+osx_key_volume_mute = 0x4a
+osx_key_f18 = 0x4f
+osx_key_f19 = 0x50
+osx_key_f20 = 0x5a
+osx_key_f5 = 0x60
+osx_key_f6 = 0x61
+osx_key_f7 = 0x62
+osx_key_f3 = 0x63
+osx_key_f8 = 0x64
+osx_key_f9 = 0x65
+osx_key_f11 = 0x67
+osx_key_f13 = 0x69
+osx_key_f16 = 0x6a
+osx_key_f14 = 0x6b
+osx_key_f10 = 0x6d
+osx_key_f12 = 0x6f
+osx_key_f15 = 0x71
+osx_key_help = 0x72
+osx_key_home = 0x73
+osx_key_pageup = 0x74
+osx_key_delete = 0x75
+osx_key_f4 = 0x76
+osx_key_end = 0x77
+osx_key_f2 = 0x78
+osx_key_pagedown = 0x79
+osx_key_f1 = 0x7a
+osx_key_left = 0x7b
+osx_key_right = 0x7c
+osx_key_down = 0x7d
+osx_key_up = 0x7e
+osx_key_yen = 0x5d
+osx_key_eisu = 0x66
+osx_key_kana = 0x68
+
+osx_mouse_left = "Left"
+osx_mouse_middle = "Middle"
+osx_mouse_right = "Right"
