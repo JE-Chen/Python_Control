@@ -1,6 +1,6 @@
 import sys
 
-if sys.platform not in sys.platform in ["linux", "linux2"]:
+if sys.platform not in ["linux", "linux2"]:
     raise Exception("should be only loaded on linux")
 
 import os

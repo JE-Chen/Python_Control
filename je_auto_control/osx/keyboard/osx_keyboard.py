@@ -1,6 +1,6 @@
 import sys
 
-if sys.platform not in sys.platform in ["darwin"]:
+if sys.platform not in ["darwin"]:
     raise Exception("should be only loaded on MacOS")
 
 import time
@@ -8,7 +8,7 @@ import time
 import AppKit
 import Quartz
 
-from je_auto_control.osx.core.osx_vk import key_shift
+from je_auto_control.osx.core.osx_vk import osx_key_shift
 
 special_key_table = {
     "key_sound_up": 0,
@@ -42,7 +42,7 @@ def normal_key(key, is_shift, is_down):
     if is_shift:
         event = Quartz.CGEventCreateKeyboardEvent(
             None,
-            key_shift,
+            osx_key_shift,
             is_down
         )
         Quartz.CGEventPost(Quartz.kCGHIDEventTap, event)
