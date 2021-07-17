@@ -1,9 +1,11 @@
 import Quartz
+import AppKit
 import time
 
 from je_auto_control.osx.core.osx_vk import key_shift
 
-special_key = {
+
+special_key_table = {
     "key_sound_up" : 0,
     "key_sound_down" : 1,
     "key_brightness_up": 2,
@@ -31,37 +33,50 @@ special_key = {
 }
 
 
-def normal_key(key, is_shift):
+def normal_key(key, is_shift, is_down):
     if is_shift:
         event = Quartz.CGEventCreateKeyboardEvent(
             None,
             key_shift,
-            True
+            is_down
         )
         Quartz.CGEventPost(Quartz.kCGHIDEventTap, event)
         time.sleep(.001)
     event = Quartz.CGEventCreateKeyboardEvent(
         None,
         key,
-        True
+        is_down
     )
     Quartz.CGEventPost(Quartz.kCGHIDEventTap, event)
     time.sleep(.001)
 
 
-def special_key(key, is_shift):
-    pass
+def special_key(key, is_shift, event_value):
+    key = special_key_table[key]
+    event = AppKit.NSEvent.otherEventWithType_location_modifierFlags_timestamp_windowNumber_context_subtype_data1_data2(
+        Quartz.NSSystemDefined,
+        (0,0),
+        0xa00 if is_shift else 0xb00,
+        0,
+        0,
+        0,
+        8,
+        (key << 16) | ((0xa if is_shift else 0xb) << 8),
+        -1
+    )
+    Quartz.CGEventPost(0, event)
 
 
-def press_key(key):
-    if key in special_key:
-        pass
+def press_key(key, is_shift):
+    if key in special_key_table:
+        special_key(key,is_shift ,True)
     else:
-        pass
+        normal_key(key,is_shift ,True)
 
 
-def release_key(key):
-    if key in special_key:
-        pass
+def release_key(key,is_shift):
+    if key in special_key_table:
+        special_key(key, is_shift,False)
     else:
-        pass
+        normal_key(key, is_shift,False)
+
