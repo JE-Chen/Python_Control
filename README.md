@@ -1,13 +1,29 @@
 # je_auto_control
 
 ## install
+
 ```
 pip install je_auto_control
 ```
 
-####
+## Info
 
-## example 
+* Dev env
+    * windows 11
+    * osx 11 big sur
+    * ubuntu 20.0.4
+    
+* Test on
+    * windows 11
+    * osx 11 big sur
+    * ubuntu 20.0.4
+
+## TODO
+
+* wrapper
+* more feature
+
+## example
 
 * All test in test dir
 
@@ -99,6 +115,7 @@ cv2.destroyAllWindows()
 ```
 
 #### Image detect multi image
+
 ```python
 import cv2
 
@@ -114,6 +131,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
+
 ## Linux
 
 #### mouse
@@ -222,6 +240,7 @@ linux_mouse.scroll(5, x11_linux_scroll_direction_up)
 ```
 
 #### Image detect
+
 ```python
 from je_auto_control import template_detection
 
@@ -245,6 +264,7 @@ if len(image_data_array[2]) > 0:
 ```
 
 #### Image detect multi image
+
 ```python
 from je_auto_control import template_detection
 
@@ -262,7 +282,6 @@ print(image_data_array[1])
 ```python
 from je_auto_control import osx_mouse
 from je_auto_control import osx_mouse_right
-
 
 osx_mouse.click_mouse(500, 100, osx_mouse_right)
 print(osx_mouse.position())
@@ -303,6 +322,7 @@ osx_mouse.scroll(100)
 ```
 
 #### Image detect
+
 ```python
 from je_auto_control import template_detection
 
@@ -314,6 +334,7 @@ print(image_data_array[1])
 ```
 
 #### Image detect multi image
+
 ```python
 from je_auto_control import template_detection
 
