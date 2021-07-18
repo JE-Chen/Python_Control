@@ -87,8 +87,6 @@ mouse_control.scroll(500)
 #### Image detect one image
 
 ```python
-import cv2
-
 from je_auto_control import template_detection
 
 # detect_threshold 0~1 , 1 is absolute equal
@@ -117,8 +115,6 @@ cv2.destroyAllWindows()
 #### Image detect multi image
 
 ```python
-import cv2
-
 from je_auto_control import template_detection
 
 # detect_threshold 0~1 , 1 is absolute equal
