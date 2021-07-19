@@ -15,8 +15,23 @@ jobs:
           command: pip install --user -r requirements.txt
           name: pip requirements.txt
       - run:
+          command: python ./circle_ci_test/template_detection_multi_test.py
+          name: template_detection_multi_test
+      - run:
+          command: python ./circle_ci_test/template_detection_test.py
+          name: template_detection_test
+      - run:
+          command: python ./circle_ci_test/win32_ctype_screen_test.py
+          name: win32_ctype_screen_test
+      - run:
           command: python ./circle_ci_test/win32_keyboard_test.py
           name: win32_keyboard_test
+      - run:
+          command: python ./circle_ci_test/win32_mouse_test.py
+          name: win32_mouse_test
+      - run:
+          command: python ./circle_ci_test/win32_scroll_test.py
+          name: win32_scroll_test
 
 workflows:
   main:

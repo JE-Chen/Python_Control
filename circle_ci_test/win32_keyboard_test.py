@@ -1,5 +1,3 @@
-import sys
-
 from je_auto_control import win32_keyT
 from je_auto_control import win32_keyE
 from je_auto_control import win32_keyS
