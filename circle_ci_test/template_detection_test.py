@@ -19,6 +19,4 @@ if len(image_data_array[2]) > 0:
     template_center = [image_data_array[2][0] + center[0], image_data_array[2][1] + center[1]]
     print(template_center)
 
-cv2.imshow("test", image_data_array[0])
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+
